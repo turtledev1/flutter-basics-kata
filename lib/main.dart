@@ -30,51 +30,7 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text('Kata 1'),
       ),
-      body: Column(
-        spacing: 32,
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          const Text('Look at these beautiful boxes!'),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Container(
-                height: 100,
-                width: 100,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.green,
-                ),
-                child: Center(
-                  child: const Text('1'),
-                ),
-              ),
-              Container(
-                height: 100,
-                width: 100,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.blue,
-                ),
-                child: Center(
-                  child: const Text('2'),
-                ),
-              ),
-              Container(
-                height: 100,
-                width: 100,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(10),
-                  color: Colors.orange,
-                ),
-                child: Center(
-                  child: const Text('3'),
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
+      body: <code here>,
     );
   }
 }
