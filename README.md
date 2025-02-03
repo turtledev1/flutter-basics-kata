@@ -1,16 +1,18 @@
-# flutter_basics
+# Flutter Basics Kata
 
-A new Flutter project.
+A kata designed to introduce basic Flutter Widgets: `Text`, `Center`, `Column`, `Row`, `Container`.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The goal of this Kata is to reproduce below screenshot
 
-A few resources to get you started if this is your first Flutter project:
+![UI to reproduce](assets/ui-to-reproduce.png?raw=true)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Specs:
+- UI is centered vertically
+- There is 32px between the text and the boxes
+- Boxes are 100px*100px
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Challenges:
+- Add rounded corners to the boxes
+- Space the boxes evenly in the screen
